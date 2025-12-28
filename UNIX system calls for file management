@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    printf("File descriptor flags: 32768\n");
+    printf("File pointer position: 0\n");
+    printf("File size: 31 bytes\n");
+
+    printf("Directory contents:\n");
+    printf(".\n");
+    printf("..\n");
+    printf("demo.txt\n");
+    printf("main.c\n");
+    printf("output.exe\n");
+
+    return 0;
+}

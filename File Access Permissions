@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    printf("File Access Permissions:\n");
+    printf("Owner: Read\n");
+    printf("Owner: Write\n");
+    printf("Owner: Execute\n");
+    printf("Group: Read\n");
+    printf("Others: Read\n");
+
+    return 0;
+}

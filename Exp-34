@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int start = 5, length = 4;
+
+    printf("File Blocks: ");
+    for (int i = start; i < start + length; i++)
+        printf("%d ", i);
+
+    return 0;
+}

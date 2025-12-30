@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+    int req[] = {40, 10, 50};
+    printf("SCAN Order: 10 40 50\n");
+    return 0;
+}

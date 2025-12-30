@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int owner = 7, group = 5, others = 4;
+
+    printf("File Permissions:\n");
+    printf("Owner  : rwx\n");
+    printf("Group  : r-x\n");
+    printf("Others : r--\n");
+
+    printf("\nSymbolic Representation:\n");
+    printf("-rwxr-xr--\n");
+
+    return 0;
+}

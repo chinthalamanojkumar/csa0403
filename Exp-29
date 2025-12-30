@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <semaphore.h>
+
+sem_t mutex;
+int count = 0;
+
+int main() {
+    sem_init(&mutex, 0, 1);
+
+    sem_wait(&mutex);
+    count++;
+    printf("Produced item. Count = %d\n", count);
+    sem_post(&mutex);
+
+    sem_wait(&mutex);
+    count--;
+    printf("Consumed item. Count = %d\n", count);
+    sem_post(&mutex);
+
+    return 0;
+}

@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+    printf("C-SCAN Order: 40 50 -> 0 -> 10\n");
+    return 0;
+}

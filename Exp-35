@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int index[] = {10, 11, 12, 13};
+
+    printf("Index Block Points To:\n");
+    for (int i = 0; i < 4; i++)
+        printf("Block %d\n", index[i]);
+
+    return 0;
+}
